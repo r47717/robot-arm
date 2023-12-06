@@ -30,6 +30,7 @@ section.leftSide {
   height: 600px;
   overflow: auto;
   background: deepskyblue;
+  padding: 5px;
 }
 
 .programAction {
@@ -43,6 +44,25 @@ section.leftSide {
   flex: 1 1 50%;
   margin: 5px;
   padding: 5px;
+}
+
+.inputBlock {
+  display: flex;
+}
+
+.incDecButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.incDecButtons button {
+  font-size: 10px;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btnRunProgram {
